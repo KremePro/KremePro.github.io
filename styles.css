@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Bebas Neue', sans-serif;
+}
+
+body{
+   background: rgb(39, 41, 40);
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1rem;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 50px;
+    transition: color .3s;
+}
+
+.navbar a:hover,.navbar a.active{
+    color: rgb(24, 194, 236);
+}
+.navbar a.active:hover{
+    color: white;
+}

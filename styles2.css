@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    background-image: url(conferenece.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+header h1:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+h1{
+    font-family: 'Antonio', sans-serif;
+    display: inline;
+    color: white;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background: rgba(53, 53, 53, 0.356);
+}
+header ul{
+    float: right;
+    list-style-type: none;
+}
+header ul li{
+    display: inline;
+}
+header ul li a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 10px 45px 10px 45px;
+    border-radius: 3px;
+}
+header ul li a:hover{
+    color: rgb(111, 194, 241);
+    background: white;
+}
+section{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    font-family: 'Antonio', sans-serif;
+    color: white;
+}
+section h2{
+    margin: 0;
+    font-size: 50px;
+}
+section p{
+    margin-top: 0;
+    margin-bottom: 2px;
+    
+}
+div{
+    width: 100%;
+    height: 65%;
+    background: white;
+}
+div .first{
+    width: 50%;
+    height: 100%;
+    margin-left: 10%;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: black;
+}
+div .second{
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+div h2,div h5,div ul{
+    margin: 0;
+}
+.unique{
+    color: rgb(48, 184, 127);
+}
+.adjust4{
+    margin-top: 60px;
+}
+form{
+    margin-top: 60px;
+    margin-left: 10%;
+}
+textarea{
+    resize: none;
+}
+label, input,select{
+    margin-top: 5px;
+    display: block;
+}
+label{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(42, 124, 90);
+    margin-top: 10px;
+}
+input[type=text]{
+    width: 50%;
+}
+input[type=submit]{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(48, 184, 127);
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 5px 25px;
+    width: 30%;
+}
+input[type=submit]:hover{
+    opacity: 70%;
+    
+}
+footer{ 
+    height: 10.5%;
+    width: 100%;
+    background: rgb(49, 121, 115);
+    
+}
+h4{
+    display: inline-block;
+    margin: 2% 0 0 10%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+h4:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+footer ul{
+    width: 30%;
+    list-style-type: none;
+    float: right;
+    
+}
+footer ul li{
+    margin-top: 2%;
+    margin-left: 4%;
+    display: inline-block;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: rgba(228, 227, 227, 0.781);
+}
